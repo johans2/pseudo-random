@@ -1,0 +1,56 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="PseudoRandom/ProbabilityGenerator.cs">
+    <Files>
+      <File FileName="PseudoRandom/IProbabilityItem.cs" Line="9" Column="2" />
+      <File FileName="PseudoRandom/ProbabilityGenerator.cs" Line="27" Column="4" />
+      <File FileName="Canvas/Main.cs" Line="26" Column="3" />
+      <File FileName="Test/Test.cs" Line="42" Column="8" />
+      <File FileName="PseudoRandom/ZoneFactory.cs" Line="25" Column="10" />
+      <File FileName="PseudoRandom/RandomGenerator.cs" Line="16" Column="48" />
+      <File FileName="PseudoRandom/SystemCenter/SystemCenterFactory.cs" Line="10" Column="3" />
+      <File FileName="PseudoRandom/SystemCenter/ISystemCenterFactory.cs" Line="10" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="Canvas" expanded="True">
+            <Node name="UserInterface" expanded="True" />
+          </Node>
+          <Node name="PseudoRandom" expanded="True">
+            <Node name="References" expanded="True" />
+            <Node name="SystemCenter" expanded="True" />
+            <Node name="ProbabilityGenerator.cs" selected="True" />
+          </Node>
+          <Node name="Test" expanded="True">
+            <Node name="References" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="ClassPad">
+        <State expanded="True" selected="True">
+          <Node name="PseudoRandom" expanded="True">
+            <Node name="PseudoRandom" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+      <Pad Id="MonoDevelop.NUnit.TestPad">
+        <State expanded="True" selected="True" />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint enabled="false" file="/home/johan/MyCode/PseudoRandom/PseudoRandom/PseudoRandom/Main.cs" line="9" />
+      <Breakpoint file="/home/johan/MyCode/PseudoRandom/PseudoRandom/Test/Test.cs" line="49" />
+      <Breakpoint enabled="false" file="/home/johan/MyCode/PseudoRandom/PseudoRandom/Canvas/Main.cs" line="60" />
+      <Breakpoint enabled="false" file="/home/johan/MyCode/PseudoRandom/PseudoRandom/Canvas/Main.cs" line="63" />
+      <Breakpoint enabled="false" file="/home/johan/MyCode/PseudoRandom/PseudoRandom/Canvas/Main.cs" line="66" />
+      <Breakpoint enabled="false" file="/home/johan/MyCode/PseudoRandom/PseudoRandom/Canvas/Main.cs" line="81" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>10.0.0</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{DF675C23-DA32-4A7A-BD19-414D21AC8BDB}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>PseudoRandom</RootNamespace>
+    <AssemblyName>PseudoRandom</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+    <EnvironmentVariables>
+      <EnvironmentVariables>
+        <Variable name="xterm" value="/usr/bin/xterm" />
+      </EnvironmentVariables>
+    </EnvironmentVariables>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>none</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+    <Externalconsole>true</Externalconsole>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="IOrbital.cs" />
+    <Compile Include="IZone.cs" />
+    <Compile Include="RandomGenerator.cs" />
+    <Compile Include="RockyPlanet.cs" />
+    <Compile Include="Zone.cs" />
+    <Compile Include="ZoneFactory.cs" />
+    <Compile Include="ProbabilityGenerator.cs" />
+    <Compile Include="IProbabilityItem.cs" />
+    <Compile Include="SystemCenter\BlueGiantStar.cs" />
+    <Compile Include="SystemCenter\ISystemCenter.cs" />
+    <Compile Include="SystemCenter\ISystemCenterFactory.cs" />
+    <Compile Include="SystemCenter\RedDwarfStar.cs" />
+    <Compile Include="SystemCenter\SystemCenterFactory.cs" />
+    <Compile Include="SystemCenter\NeutronStar.cs" />
+    <Compile Include="SystemCenter\WhiteDwarfStar.cs" />
+    <Compile Include="SystemCenter\YellowStar.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <Folder Include="SystemCenter\" />
+  </ItemGroup>
+</Project>

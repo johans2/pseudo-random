@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PseudoRandom", "PseudoRandom\PseudoRandom.csproj", "{DF675C23-DA32-4A7A-BD19-414D21AC8BDB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{1D517889-2A73-4EB3-8AE2-42227720DD38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Canvas", "Canvas\Canvas.csproj", "{FAA1B84C-D425-44A4-9653-3277B69234EB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1D517889-2A73-4EB3-8AE2-42227720DD38}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{1D517889-2A73-4EB3-8AE2-42227720DD38}.Debug|x86.Build.0 = Debug|Any CPU
+		{1D517889-2A73-4EB3-8AE2-42227720DD38}.Release|x86.ActiveCfg = Release|Any CPU
+		{1D517889-2A73-4EB3-8AE2-42227720DD38}.Release|x86.Build.0 = Release|Any CPU
+		{DF675C23-DA32-4A7A-BD19-414D21AC8BDB}.Debug|x86.ActiveCfg = Debug|x86
+		{DF675C23-DA32-4A7A-BD19-414D21AC8BDB}.Debug|x86.Build.0 = Debug|x86
+		{DF675C23-DA32-4A7A-BD19-414D21AC8BDB}.Release|x86.ActiveCfg = Release|x86
+		{DF675C23-DA32-4A7A-BD19-414D21AC8BDB}.Release|x86.Build.0 = Release|x86
+		{FAA1B84C-D425-44A4-9653-3277B69234EB}.Debug|x86.ActiveCfg = Debug|x86
+		{FAA1B84C-D425-44A4-9653-3277B69234EB}.Debug|x86.Build.0 = Debug|x86
+		{FAA1B84C-D425-44A4-9653-3277B69234EB}.Release|x86.ActiveCfg = Release|x86
+		{FAA1B84C-D425-44A4-9653-3277B69234EB}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Canvas\Canvas.csproj
+	EndGlobalSection
+EndGlobal
